@@ -1,8 +1,8 @@
 # Project Overview
 
-**PROJECT NAME:** dfadfadfsdfadf
+**PROJECT NAME:** First Portfolio 
 
-**PROJECT AUTHOR:** lkjlkjljlkadfsd
+**PROJECT AUTHOR:** Meqdad
 
 ## Project Schedule
 
@@ -26,7 +26,7 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+Include link to your google sheet here.  Here is the sample [Meqdad had used in class](https://docs.google.com/spreadsheets/d/1GyHbgg5o-SfAhaJ3javxxubLgRTkHkC3DgCKtnO8JFk/edit#gid=0)
 
 ## Portfolio I want to Emulate
 
