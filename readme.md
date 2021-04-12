@@ -12,7 +12,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
+|Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
@@ -45,9 +45,9 @@ Link To Site  | One Thing I'd Like To Incorporate |
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
 - [Mobile](https://i.imgur.com/QPql3xB.jpg)
-- [Tablet] (https://i.imgur.com/JJqZnMg.jpg)
+- [Tablet](https://i.imgur.com/JJqZnMg.jpg)
 - [Desktop](https://i.imgur.com/Gikk0BX.jpg)
-- [AllinOne] (https://i.imgur.com/nVhCh06.jpg)
+- [AllinOne](https://i.imgur.com/nVhCh06.jpg)
 
 Wireframing Resources:
 
@@ -91,15 +91,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1.5hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1.5hr | hr |  
-| Adding Form | H | 1hr|  hr | 
-| Other sections and flex| H | 3hr | hr|
-| Working with API | H | 2hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | M | 1hr |  hr |
-| Total | H | 16hrs| hrs |
+| Hamburger | H | 2hrs | hr |
+| Project Previews | H | 3.5hr | hr |
+| Regular Nav | H | 2hrs | hr |  
+| Adding Form | H | 2hrs|  hr | 
+| Other sections and flex| H | 4.5hr | hr|
+| Working with API | H | 2.5hrs|  hr | 
+| Responsive | H | 4hr | hr | hr |
+| Social Media Icons | M | 1.5hr |  hr |
+| Animation | H | 2hrs | hr |
+| Total | H | 24hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
