@@ -49,3 +49,9 @@ nav div a section {
     text-align: center;
     font-size: x-large;
 }
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: ;
+}
