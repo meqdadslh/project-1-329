@@ -92,8 +92,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Hamburger | H | 2hrs | hr |
-| Project Previews | H | 3.5hr | hr |
-| Regular Nav | H | 2hrs | hr |  
+| Project Previews | H | 3.5hr | 5hrs |
+| Regular Nav | H | 2hrs | 2hrs |  
 | Adding Form | H | 2hrs|  hr | 
 | Other sections and flex| H | 4.5hr | hr|
 | Working with API | H | 2.5hrs|  hr | 

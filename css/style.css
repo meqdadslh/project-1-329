@@ -105,3 +105,24 @@ h4 {
 p {
     font-family: 'Architects Daughter', cursive;
 }
+
+
+/* Footer */
+
+.media {
+    background-color: lightgreen;
+}
+
+li {
+    list-style: none;
+    margin: 0px auto;
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 45%;
+    transform: .5s;
+}
+
+li:hover {
+    color: thistle;
+}
