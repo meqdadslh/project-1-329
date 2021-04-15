@@ -19,17 +19,17 @@
                 display: block;
             }
             
-            nav h3 {
-                color: white;
-                margin-top: 20px;
-                padding-left: 10px;
-            }
-            
             header nav #menu {
                 display: none;
                 flex-direction: column;
                 color: white;
                 padding: 10px;
+            }
+            
+            nav h3 {
+                color: white;
+                margin-top: 20px;
+                padding-left: 10px;
             }
             
             nav div a {
@@ -38,7 +38,7 @@
                 margin: 20px;
             }
             
-            nav div a section {
+            nav div a article {
                 margin: 5px;
             }
             
@@ -76,8 +76,9 @@
                 display: flex;
                 justify-content: space-around;
                 flex-wrap: wrap;
-                /* width: 100%; */
-                margin: 12px auto;
+                width: 100%;
+                margin: auto;
+                border-radius: 20%;
             }
             /* Footer */
             

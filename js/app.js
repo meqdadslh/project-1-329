@@ -35,6 +35,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1GyHbgg5o-SfAhaJ3javxxubLgRTk
         console.error(error)
     })
 
+
 const $hamburger = $(".hamburger")
 const $menu = $("#menu")
 $hamburger.on('click', (event) => {

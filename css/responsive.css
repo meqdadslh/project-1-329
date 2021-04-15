@@ -17,7 +17,6 @@
        /* Desktop Display*/
        
        @media screen and (min-width: 1024px) {
-           /* main part of the body */
            /* Header */
            header nav .hamburger {
                display: none;
