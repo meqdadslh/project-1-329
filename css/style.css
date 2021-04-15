@@ -2,23 +2,21 @@
             @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow+Semi+Condensed:wght@300&family=Vollkorn:wght@500&display=swap');
             * {
                 box-sizing: border-box;
-                margin: 0px;
+                margin: 0;
                 padding: 0;
-            }
-            
-            header {
-                margin: 0px auto;
-                height: auto;
             }
             
             header nav {
                 display: flex;
                 justify-content: space-between;
                 background-color: gray;
-                margin: 0px auto;
+                margin: 5px auto;
                 width: 100%;
-                height: 20px;
-                padding-bottom: 70px;
+                padding: 12px;
+            }
+            
+            header nav .hamburger {
+                display: block;
             }
             
             nav h3 {
@@ -27,10 +25,11 @@
                 padding-left: 10px;
             }
             
-            nav #menu {
-                display: flex;
+            header nav #menu {
+                display: none;
+                flex-direction: column;
                 color: white;
-                margin-right: 30px;
+                padding: 10px;
             }
             
             nav div a {
@@ -65,50 +64,20 @@
                 display: none;
             }
             
-            .main-container {
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: repeat (5, 1fr);
-                grid-auto-rows: 250px;
-                color: white;
+            .main-container h2 {
                 text-align: center;
-                gap: 1px;
-                padding: 1px 1px;
             }
             
-            .project1 {
-                background-image: url("https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=933&q=80");
-                padding-top: 15px;
-                background-size: cover;
+            .image {
+                max-width: 300px;
             }
             
-            .project2 {
-                background-size: cover;
-                background-position: center;
-                background-image: url("https://images.unsplash.com/photo-1530789253388-582c481c54b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
-                padding-top: 15px;
-            }
-            
-            .project3 {
-                background-size: cover;
-                background-position: center;
-                background-image: url("https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1008&q=80");
-                padding-top: 15px;
-            }
-            
-            .project4 {
-                background-size: cover;
-                background-position: center;
-                background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
-                padding-top: 15px;
-            }
-            
-            h4 {
-                font-family: 'Vollkorn', serif;
-            }
-            
-            p {
-                font-family: 'Architects Daughter', cursive;
+            section {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                /* width: 100%; */
+                margin: 12px auto;
             }
             /* Footer */
             

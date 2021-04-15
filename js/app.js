@@ -10,10 +10,10 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1GyHbgg5o-SfAhaJ3javxxubLgRTk
         const projects = data.feed.entry.map((item) => {
             return {
                 description: item.gsx$description.$t,
-                giturl: item.gsx$giturl.$t,
-                project: item.gsx$project.$t,
+                git: item.gsx$git.$t,
+                name: item.gsx$project.$t,
                 image: item.gsx$image.$t,
-                liveurl: item.gsx$liveurl.$t
+                live: item.gsx$live.$t
             }
         })
         console.log(projects)
@@ -22,8 +22,26 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1GyHbgg5o-SfAhaJ3javxxubLgRTk
             /////////////////////////////////////////////////
             /////////////////////////////////////////////////
             ////////////////////////////////////////////////
+        const final = projects.map((project) => {
+            return `
+                <my-card name=${project.name} git=${project.git} live=${project.live} image=${project.image}></my-card>`
+        })
+        console.log(final)
+        const $section = $('section')
+        $section.html(final.join(""))
     })
     //.catch in case of an error
     .catch((error) => {
         console.error(error)
     })
+
+const $hamburger = $(".hamburger")
+const $menu = $("#menu")
+$hamburger.on('click', (event) => {
+    if ($menu.css('display') === 'flex') {
+        $menu.css("display", "none")
+    } else {
+        $menu.css("display", "flex")
+    }
+
+})
