@@ -13,8 +13,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | complete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
@@ -91,14 +91,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hrs | hr |
+| Hamburger | H | 2hrs | 2hrs |
 | Project Previews | H | 3.5hr | 5hrs |
 | Regular Nav | H | 2hrs | 2hrs |  
 | Adding Form | H | 2hrs|  hr | 
 | Other sections and flex| H | 4.5hr | hr|
-| Working with API | H | 2.5hrs|  hr | 
+| Working with API | H | 2.5hrs|  4hr | 
 | Responsive | H | 4hr | hr | hr |
-| Social Media Icons | M | 1.5hr |  hr |
+| Social Media Icons | M | 1.5hr |  1hr |
 | Animation | H | 2hrs | hr |
 | Total | H | 24hrs| hrs |
 
