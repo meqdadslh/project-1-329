@@ -5,31 +5,14 @@
                 margin: 0;
                 padding: 0;
             }
+            /* Head */
             
-            header nav {
-                display: flex;
-                justify-content: space-between;
-                background-color: gray;
-                margin: 5px auto;
-                width: 100%;
-                padding: 12px;
+            .banner-text h1 {
+                font-family: fantasy;
             }
             
-            header nav .hamburger {
-                display: block;
-            }
-            
-            header nav #menu {
-                display: none;
-                flex-direction: column;
-                color: white;
-                padding: 10px;
-            }
-            
-            nav h3 {
-                color: white;
-                margin-top: 20px;
-                padding-left: 10px;
+            .banner-text p {
+                font-family: cursive;
             }
             
             nav div a {
@@ -63,38 +46,81 @@
                 margin: 0 auto 20px auto;
                 display: none;
             }
+            /* Main */
+            
+            .main-container {
+                background-color: lightgray;
+            }
             
             .main-container h2 {
                 text-align: center;
+                padding-top: 10px;
+                font-family: Vollkorn;
+                color: white;
             }
             
-            .image {
-                max-width: 300px;
+            .img {
+                max-width: 200px;
             }
             
-            section {
+            .my-card {
+                width: 200px;
+                height: 100px;
+                padding: 30px;
+            }
+            
+            main section {
                 display: flex;
                 justify-content: space-around;
                 flex-wrap: wrap;
                 width: 100%;
-                margin: auto;
+                margin: 20px auto;
+                padding: 20px;
+                padding-bottom: 20px;
+                gap: 10px;
+            }
+            
+            sl-button a {
+                text-decoration: none;
+            }
+            
+            h4 {
+                text-align: center;
+                font-family: serif;
+                background-color: lightgray;
+                border-radius: 10px;
+            }
+            
+            sl-button-group {
+                align-items: center;
+                padding-left: 20px;
                 border-radius: 20%;
             }
             /* Footer */
             
             .media {
                 background-color: lightgreen;
-                padding-bottom: 5px;
+                padding: 30px;
+                margin-top: 20px;
             }
             
-            li {
+            .media ul {
+                margin-bottom: 0;
+                padding: 0;
+            }
+            
+            .media ul li {
                 list-style: none;
                 margin: 0px auto;
                 display: inline;
                 font-size: 20px;
-                padding: 50px;
+                padding: 40px;
                 border-radius: 45%;
                 transform: .5s;
+            }
+            
+            li a {
+                justify-content: space-around;
             }
             
             li:hover {

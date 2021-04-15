@@ -34,15 +34,3 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1GyHbgg5o-SfAhaJ3javxxubLgRTk
     .catch((error) => {
         console.error(error)
     })
-
-
-const $hamburger = $(".hamburger")
-const $menu = $("#menu")
-$hamburger.on('click', (event) => {
-    if ($menu.css('display') === 'flex') {
-        $menu.css("display", "none")
-    } else {
-        $menu.css("display", "flex")
-    }
-
-})
