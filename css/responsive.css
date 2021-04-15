@@ -1,13 +1,13 @@
            /* Tablet Display */
-       
-       @media screen and (min-width: 768px) {
-           /* Header */
-           .profile-image {
-               display: block;
-               margin-left: auto;
-               margin-right: auto;
+           
+           @media screen and (min-width: 768px) {
+               /* Header */
+               .profile-image {
+                   display: block;
+                   margin-left: auto;
+                   margin-right: auto;
+               }
            }
            /* Desktop Display*/
-           @media screen and (min-width: 1024px) {
-               /* Header */
-           }
+           
+           @media screen and (min-width: 1024px) {}
