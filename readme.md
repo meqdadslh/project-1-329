@@ -121,10 +121,12 @@ Use this section to include a brief code snippet of functionality that you are p
 
 ```
 Hovering 
+Bootstrap
 ```
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
+ - most common issue I had was making the page responsive and API. Provided material was a huge help. 
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
