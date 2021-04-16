@@ -1,4 +1,4 @@
-           /* Tablet Display */
+               /* Tablet Display */
            
            @media screen and (min-width: 768px) {
                /* Header */
@@ -7,7 +7,27 @@
                    margin-left: auto;
                    margin-right: auto;
                }
-           }
-           /* Desktop Display*/
-           
-           @media screen and (min-width: 1024px) {}
+               .banner-text span h1,
+               p {
+                   font-size: 30px;
+               }
+               /* Desktop Display*/
+               @media screen and (min-width: 1024px) {
+                   .banner-text {
+                       display: flex;
+                   }
+                   .banner-text span {
+                       padding-top: 50px;
+                   }
+                   .banner-text span h1,
+                   p {
+                       font-size: 40px;
+                   }
+                   .profile-image {
+                       width: 250px;
+                       height: 250px;
+                       object-fit: cover;
+                       border-radius: 30%;
+                       margin: 0 auto 20px auto;
+                   }
+               }
