@@ -1,33 +1,49 @@
-               /* Tablet Display */
-           
-           @media screen and (min-width: 768px) {
-               /* Header */
-               .profile-image {
-                   display: block;
-                   margin-left: auto;
-                   margin-right: auto;
-               }
-               .banner-text span h1,
-               p {
-                   font-size: 30px;
-               }
-               /* Desktop Display*/
-               @media screen and (min-width: 1024px) {
-                   .banner-text {
-                       display: flex;
+                   /* Tablet Display */
+                   
+                   @media screen and (min-width: 768px) {
+                       /* Header */
+                       .profile-image {
+                           display: block;
+                           margin-left: auto;
+                           margin-right: auto;
+                       }
+                       .banner-text span h1,
+                       p {
+                           font-size: 30px;
+                       }
                    }
-                   .banner-text span {
-                       padding-top: 50px;
+                   /* Desktop Display*/
+                   
+                   @media screen and (min-width: 1024px) {
+                       /* Banner Responsivnes */
+                       .banner-text {
+                           display: flex;
+                       }
+                       .banner-text span {
+                           padding-top: 50px;
+                       }
+                       .banner-text span h1,
+                       p {
+                           font-size: 40px;
+                       }
+                       .profile-image {
+                           width: 250px;
+                           height: 250px;
+                           object-fit: cover;
+                           border-radius: 30%;
+                           margin: 0 auto 20px auto;
+                       }
+                       /* navbar Responsivnes */
+                       .navbar-expand-lg .navbar-nav .nav-link::after {
+                           content: '';
+                           display: block;
+                           width: 0;
+                           height: 2px;
+                           background: #fff;
+                           transition: width .3s
+                       }
+                       .navbar-expand-lg .navbar-nav .nav-link:hover::after {
+                           width: 100%;
+                           transition: width .3s;
+                       }
                    }
-                   .banner-text span h1,
-                   p {
-                       font-size: 40px;
-                   }
-                   .profile-image {
-                       width: 250px;
-                       height: 250px;
-                       object-fit: cover;
-                       border-radius: 30%;
-                       margin: 0 auto 20px auto;
-                   }
-               }

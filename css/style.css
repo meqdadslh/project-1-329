@@ -139,3 +139,17 @@
             li:hover {
                 color: thistle;
             }
+            
+            .fab::after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 2px;
+                background: #fff;
+                transition: width .3s
+            }
+            
+            .fab:hover::after {
+                width: 100%;
+                transition: width .3s;
+            }
