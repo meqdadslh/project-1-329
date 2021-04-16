@@ -61,7 +61,7 @@
             }
             
             .img {
-                max-width: 200px;
+                max-width: 300px;
             }
             
             .my-card {
@@ -93,11 +93,11 @@
                 border-radius: 10px;
                 color: salmon;
                 font-size: 20px;
+                padding: 5px 0px;
             }
             
             sl-button-group {
-                align-items: center;
-                padding-left: 20px;
+                padding-left: 70px;
                 border-radius: 20%;
             }
             /* form */
