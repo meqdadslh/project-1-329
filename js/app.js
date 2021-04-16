@@ -30,7 +30,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1GyHbgg5o-SfAhaJ3javxxubLgRTk
         const $section = $('section')
         $section.html(final.join(""))
     })
-    //.catch in case of an error
-    .catch((error) => {
-        console.error(error)
-    })
+
+.catch((error) => {
+    console.error(error)
+})

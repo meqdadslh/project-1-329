@@ -100,15 +100,34 @@
                 padding-left: 70px;
                 border-radius: 20%;
             }
+            
+            hr {
+                margin-bottom: 30px;
+                margin-left: 60px;
+                margin-right: 60px;
+            }
             /* form */
             
             .mb-3 {
-                padding-left: 50px;
-                padding-right: 50px;
+                padding-left: 60px;
+                padding-right: 60px;
             }
             
             .mb-3 #exampleFormControlTextarea1 {
                 height: 150px;
+            }
+            /* submit button */
+            
+            .btn {
+                background-color: white;
+                width: 130px;
+                margin-left: 60px;
+                padding: 2px;
+                border-radius: 8px;
+            }
+            
+            .btn:hover {
+                color: teal;
             }
             /* Footer */
             
