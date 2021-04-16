@@ -103,8 +103,8 @@
             /* form */
             
             .mb-3 {
-                padding-left: 200px;
-                padding-right: 200px;
+                padding-left: 50px;
+                padding-right: 50px;
             }
             
             .mb-3 #exampleFormControlTextarea1 {
@@ -122,21 +122,18 @@
             
             .media ul {
                 margin-bottom: 0px;
-                padding-top: 10px;
-                align-items: center;
+                display: flex;
+                padding: 10px 0px;
             }
             
             .media ul li {
                 list-style: none;
-                margin: 20px;
                 display: inline;
                 font-size: 20px;
-                padding-top: 5px;
-                padding-right: 60px;
                 border-radius: 45%;
                 transform: .5s;
-                align-items: center;
                 width: 80%;
+                text-align: center;
             }
             
             li:hover {
