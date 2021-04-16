@@ -83,6 +83,7 @@
             
             sl-button a {
                 text-decoration: none;
+                color: salmon;
             }
             
             h4 {
@@ -105,6 +106,10 @@
                 padding-left: 200px;
                 padding-right: 200px;
             }
+            
+            .mb-3 #exampleFormControlTextarea1 {
+                height: 150px;
+            }
             /* Footer */
             
             .media {
@@ -117,23 +122,21 @@
             
             .media ul {
                 margin-bottom: 0px;
-                padding: 20px;
+                padding-top: 10px;
+                align-items: center;
             }
             
             .media ul li {
                 list-style: none;
-                margin: 0px auto;
+                margin: 20px;
                 display: inline;
                 font-size: 20px;
-                padding: 20px;
+                padding-top: 5px;
+                padding-right: 60px;
                 border-radius: 45%;
                 transform: .5s;
                 align-items: center;
                 width: 80%;
-            }
-            
-            li a {
-                justify-content: space-around;
             }
             
             li:hover {
